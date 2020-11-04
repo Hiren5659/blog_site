@@ -25,7 +25,7 @@ SECRET_KEY = '$)0rvl*l493^65pk=7(p_g#-mwl9yv#^s0*%x#2!i)b&$4&@7%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['hiren5659.pytonanywhere.com']
 
 
 # Application definition
