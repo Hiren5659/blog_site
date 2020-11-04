@@ -2,7 +2,7 @@
 {% block content %}
   {% for post in posts %}
     <div class="post">
-      <p class='date'>created: {{post.created_date|date:'d-m-Y'}}</p>
+      <p class='date'>created: {{post.created_date|date:'d-M-Y'}}</p>
       <h1><a href="{% url 'post:post_detail' pk=post.pk %}"></a></h1>
       <p>{{post.text|truncatechars:100}}</p>
     </div>
